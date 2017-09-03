@@ -1,0 +1,27 @@
+// Typography
+	@font-face {
+	    font-family: '#';
+	    src: url('#') format('woff'),
+	         url('#') format('woff2');
+	    font-weight: normal;
+	    font-style: normal;
+	    text-rendering: optimizeLegibility;
+	}
+
+	body {
+		font: 100% $font-body;
+	}
+	h1 {
+	}
+	h2 {
+	}
+	h3 {
+	}
+	h4 {
+	}
+	h5 {
+	}
+	h6 {
+	}
+	p {
+	}
