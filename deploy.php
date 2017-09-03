@@ -86,16 +86,16 @@ set('user', 'root');
 set('group', 'www-data');
 
 // Set test server.
-server('test', 'oliva.test.krig.io')
+server('test', 'pappaskamt.test.krig.io')
     ->user('root')
     ->set('branch', $branch)
     ->identityFile('~/.ssh/id_rsa')
     ->forwardAgent(true)
-    ->set('deploy_path', '/var/www/oliva.test.krig.io')
+    ->set('deploy_path', '/var/www/pappaskamt.krig.io')
     ->stage('test');
 
 // Set git configuration.
-set('repository', 'https://github.com/raziraz/oliva.git');
+set('repository', 'https://github.com/raziraz/pappaskamt.git');
 
 // Set ssh configuration.
 set('ssh_type','native');
