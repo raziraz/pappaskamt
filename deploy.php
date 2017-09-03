@@ -86,7 +86,7 @@ set('user', 'root');
 set('group', 'www-data');
 
 // Set test server.
-server('test', 'pappaskamt.test.krig.io')
+server('test', 'pappaskamt.krig.io')
     ->user('root')
     ->set('branch', $branch)
     ->identityFile('~/.ssh/id_rsa')
